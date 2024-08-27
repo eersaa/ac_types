@@ -1418,8 +1418,8 @@ namespace ac_private {
   template<int N>
   class iv {
   protected:
-    int v[N];
   public:
+    int v[N];
     template<int N2> friend class iv;
     iv() {}
     template<int N2>
